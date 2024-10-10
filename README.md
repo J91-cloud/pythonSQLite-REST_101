@@ -11,6 +11,10 @@ import sqlite3
 Make sure you have these SQLite and Flask installed in your project in order to start doing this
 If you are not sure you have flask in your project , go to your project structure or packages and see if you have flask and all its dependencies.
 
+## APP.py
+Your configuration in your app.py is very important. It will change depending on your controllers and what you want to call your DB
+
+
 >[!Note]
 Make sure you add this in the top of your file:  ```app = Flask(__name__)```
 
